@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
      İsa
+     <h1>sumer</h1>
     </div>
   );
 }
