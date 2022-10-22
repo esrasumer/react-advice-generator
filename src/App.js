@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  let name = "İsa";
+  let surname = 'Sumer'
   return (
     <div className="App">
-      İsa
-      <h1>sumer</h1>
-      <h2>Bu dosyada ben {name} bişeyler değiştirdim</h2>
+     İsa
+     <h1>sumer</h1>
+     <h2>Bende surname ekledim {surname}</h2>
     </div>
   );
 }
