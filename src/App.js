@@ -8,6 +8,8 @@ function App() {
      İsa
      <h1>sumer</h1>
      <h2>Bende surname ekledim {surname}</h2>
+     <div>Burada yeni bir co-operation yapacağız.</div>
+     <div>Takım arkdaşları Live Share yaparak birbirlerine yardımı olurlar.</div>
     </div>
   );
 }
