@@ -37,13 +37,6 @@ body {
   margin-bottom: 20px;
 }
 
-.line{
-  width: 95%;
-  display: block;
-  padding-bottom: 20px;
-  margin: 0 auto;
-}
-
 .btn {
   position: absolute;
   left:50%;
@@ -54,4 +47,12 @@ body {
   padding: 15px 17px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.line {
+  border-bottom: 1px solid grey;
+  height: 1px;
+  width: 100%;
+  content: "";
+  padding-top: 10px;
 }
