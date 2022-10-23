@@ -1,16 +1,15 @@
-import logo from './logo.svg';
+import Advice from "./components/Advice";
+import Title from "./components/Title";
+import axios from 'axios';
+import { useEffect, useState } from "react";
 import './App.css';
 
 function App() {
-  let surname = 'Sumer'
+  const [advice,setAdvice] = useState("");
   return (
-    <div className="App">
-     İsa
-     <h1>sumer</h1>
-     <h2>Bende surname ekledim {surname}</h2>
-     <div>Burada yeni bir co-operation yapacağız.</div>
-     <div>Takım arkdaşları Live Share yaparak birbirlerine yardımı olurlar.</div>
-     <div>burada tekrar co-authored yaptık</div>
+    <div className="card">
+      <Title />
+      <Advice />
     </div>
   );
 }
