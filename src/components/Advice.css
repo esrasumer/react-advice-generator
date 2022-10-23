@@ -1,0 +1,7 @@
+.line {
+    border-bottom: 1px solid grey;
+    height: 1px;
+    width: 110%;
+    content: "";
+    padding-top: 10px;
+}
