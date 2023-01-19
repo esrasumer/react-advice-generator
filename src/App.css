@@ -56,3 +56,22 @@ body {
   content: "";
   padding-top: 10px;
 }
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(103, 103, 103);
+  }
+  .line {
+    border-bottom: 1px solid red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(224, 224, 224);
+  }
+  .line {
+    border-bottom: 1px solid yellow;
+  }
+}
